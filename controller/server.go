@@ -18,5 +18,6 @@ func StartServer(db *gorm.DB) {
 		})
 	})
 	LoginRequestController(router)
+	CartController(router, db)
 	router.Run()
 }

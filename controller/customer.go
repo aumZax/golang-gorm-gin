@@ -21,7 +21,7 @@ func LoginRequestController(router *gin.Engine) {
 	}
 }
 
-// ฟังก์ชันตรวจสอบการล็อกอิน
+// ฟังก์ชันตรวจสอบการล็อกอิน --
 func login(c *gin.Context) {
 	var loginData struct {
 		Email    string `json:"email" binding:"required"`
